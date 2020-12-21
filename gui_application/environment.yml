@@ -1,0 +1,44 @@
+name: gui_application
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - blas=1.0
+  - certifi=2020.12.5
+  - cudatoolkit=11.0.221
+  - dataclasses=0.7
+  - intel-openmp=2020.2
+  - libuv=1.40.0
+  - mkl=2020.2
+  - mkl-service=2.3.0
+  - mkl_fft=1.2.0
+  - mkl_random=1.1.1
+  - ninja=1.10.2
+  - numpy=1.19.2
+  - numpy-base=1.19.2
+  - pip=20.3.1
+  - python=3.6.12
+  - pytorch=1.7.0
+  - setuptools=51.0.0
+  - six=1.15.0
+  - sqlite=3.33.0
+  - typing_extensions=3.7.4.3
+  - vc=14.2
+  - vs2015_runtime=14.27.29016
+  - wheel=0.36.1
+  - wincertstore=0.2
+  - zlib=1.2.11
+  - pip:
+    - joblib==0.17.0
+    - pandas==1.1.5
+    - pyqt5==5.15.1
+    - pyqt5-sip==12.8.1
+    - pyqt5-stubs==5.14.2.2
+    - python-dateutil==2.8.1
+    - pytz==2020.4
+    - scikit-learn==0.23.2
+    - scipy==1.5.4
+    - threadpoolctl==2.1.0
+    - xgboost==1.2.1
+prefix: D:\miniconda3\envs\gui_application
+
